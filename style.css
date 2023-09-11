@@ -1,0 +1,80 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color:#333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+#logo{
+    width: 100px;
+}
+nav{
+    display: flex;
+    gap:20px;
+}
+.nav-link{
+    color:white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding:10px;
+    border-radius: 10px;
+   
+}
+#Events{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
+.Event-card{
+    text-align: center;
+    box-shadow: 0 6px 8px rgba(0,0,0,0.5);
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+    position: relative;
+    top:50px;
+}
+.debu{
+    color: black;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: black;
+    color:white;
+    padding:10px;
+}
+#detail{
+    display: flex;
+    justify-content: center;
+    padding:10px;
+}
+.details{
+    padding:10px;
+    margin:10px 0;
+}
+.details label, .details input{
+    margin: 10px 0;
+    text-align: justify;
+    
+    
+}
+form{
+    background-color: #333;
+    color: aliceblue;
+    text-align: center;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding:10px;
+    position: absolute;
+    bottom: 0;
+    width:100%;
+}
